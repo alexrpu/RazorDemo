@@ -15,10 +15,10 @@ namespace WebApplication2.Helpers
 					<td width=""30%"">{Category.DisplayOrder}</td>
 					<td>
 						<div class=""w-75 btn-group"" role=""group"">
-							<a asp-page=""Edit"" asp-route-id=""{Category.Id}"" class=""btn btn-primary mx-2"">
+							<a href=""/Categories/Edit?id={Category.Id}"" class=""btn btn-primary mx-2"">
 								<i class=""bi bi-pencil-square""></i>
 							</a>
-							<a asp-page=""Delete"" asp-route-id=""{Category.Id}"" class=""btn btn-danger mx-2"">
+							<a href=""/Categories/Delete?id={Category.Id}"" class=""btn btn-danger mx-2"">
 								<i class=""bi bi-trash-fill""></i>
 							</a>
 						</div>
